@@ -1,0 +1,40 @@
+.container-paginabody {
+  height: 80%;
+  display: flex;
+  background-color: rgb(209, 38, 15);
+}    
+
+.container-bodyesquerda {
+  width: 20%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color:var(--cor-1);
+}
+
+.container-bodydireita {
+  width: 80%;
+  height: 100%;
+  background-color: var(--cor-2);
+}
+
+.container-img-body-dir{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-button-preferencial{
+background-color:var(--cor-1);
+}
+container-button-comum{
+background-color:var(--cor-2);
+}
+
+container-button-retirada{
+background-color: var(--cor-3); 
+}     
+
+
+
