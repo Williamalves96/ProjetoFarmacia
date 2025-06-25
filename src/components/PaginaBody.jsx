@@ -1,39 +1,41 @@
 import "./PaginaBody.css";
+import Senha from "./Senha";
 
 function PaginaBody() {
-  // function Preferencial() {
-
-  // }
-  // function Comum() {
-
-  // }
-
-  // function Retirada() {
-
   return (
-    <div className="container-paginabody">
-      <div className="container-bodyesquerda">
-        <h2>RETIRE SUA SENHA</h2>
-        <h3>Selecione o tipo de atendimento:</h3>
+    <div className="container-paginaBody">
 
-        <button>PREFERENCIAL</button>
-        <button>COMUM</button>
-        <button>RETIRADA</button>
+
+
+      <div className="paginaBody-esquerda">
+        <Senha />
       </div>
 
-      <div className="container-bodydireita">
-        <img className="container-img-body-dir" src="farmarcia.webp" alt=" " />
-        <br />
-        <h2>
-          {" "}
-          🎉 Estamos de cara nova e queremos comemorar com você! <br /> Venha
-          conhecer a nova farmácia da vizinhança! <br />
-          📍 Endereço: [Rua das Bromélias, 285 – Bairro Santa Mônica] <br />
-          📅 Inauguração: [06/01/2030] 🍵 Brindes,
-          <br />
-          descontos especiais e um café com a gente! <br />
-          Não perca essa oportunidade de conhecer nosso espaço e aproveitar{" "}
-        </h2>
+      <div className="paginaBody-centro">
+        <h2>Bem-vindo à Nova Farmácia da Vizinhança!</h2>
+        <h4>
+          Queremos que todos saibam: mudamos para melhor! Com nova identidade
+          visual e mais serviços para a sua saúde, continuamos no mesmo
+          endereço, prontos para atender você com carinho, respeito e qualidade.
+        </h4>
+      </div>
+
+      <div className="paginaBody-direita">
+        <h3>Informações</h3>
+        <p>
+          Convidamos você e toda a vizinhança para a nossa inauguração oficial!
+        </p>
+        <ul>
+          <li>
+            📍 <strong>Local:</strong> Senai Floripa
+          </li>
+          <li>
+            📅 <strong>Data:</strong> 30/06/2025
+          </li>
+          <li>
+            🕒 <strong>Horário:</strong> FALTA 10
+          </li>
+        </ul>
       </div>
     </div>
   );

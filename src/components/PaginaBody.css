@@ -1,40 +1,91 @@
-.container-paginabody {
-  height: 80%;
-  display: flex;
-  background-color: rgb(209, 38, 15);
-}    
-
-.container-bodyesquerda {
-  width: 20%;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
-  background-color:var(--cor-1);
-}
-
-.container-bodydireita {
-  width: 80%;
-  height: 100%;
-  background-color: var(--cor-2);
-}
-
-.container-img-body-dir{
-  width: 80%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-button-preferencial{
-background-color:var(--cor-1);
-}
-container-button-comum{
-background-color:var(--cor-2);
-}
-
-container-button-retirada{
-background-color: var(--cor-3); 
-}     
-
-
-
+ 
+  .container-paginaBody {
+    background-color: var(--cor-6);
+    min-height: calc(100vh - 70px);
+    color: var(--cor-4);
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  
+    padding: 20px;
+    gap: 20px;
+    box-sizing: border-box;
+  }
+  
+  .paginaBody-esquerda {
+    flex: 1;
+    background-color: var(--cor-5);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .paginaBody-centro {
+    flex: 2;
+    background-color: var(--cor-3);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .paginaBody-direita {
+    flex: 1;
+    background-color: var(--cor-5);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-normal {
+    background-color: #3498db;
+  }
+  .btn-normal:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-preferencial {
+    background-color: #2ecc71;
+  }
+  .btn-preferencial:hover {
+    background-color: #27ae60;
+  }
+  
+  .btn-chamar {
+    background-color: #f39c12;
+  }
+  .btn-chamar:hover {
+    background-color: #e67e22;
+  }
+  
+  .display {
+    margin-top: 30px;
+    font-size: 36px;
+    color: #2c3e50;
+    font-weight: bold;
+    background-color: #ecf0f1;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  

@@ -1,10 +1,11 @@
 import "./Cabecalho.css";
+import Logo from "./Logo";
 
 function Cabecalho() {
   return (
     <div className="container-cabecalho">
-      <div className="logo"> <img src="farmarcia-logo-pq.webp" alt="" /> </div>
-      <div className="titulo">Farmarcia</div>
+      <Logo />
+      <h1 className="titulo">FÁRMARCIA</h1>
     </div>
   );
 }

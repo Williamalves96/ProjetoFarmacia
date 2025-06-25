@@ -1,14 +1,15 @@
-import { useState } from "react";
 import "./App.css";
 import Cabecalho from "./components/Cabecalho";
 import PaginaBody from "./components/PaginaBody";
+import Senha from "./components/Senha";
 
 function App() {
   return (
-    <>
-      <Cabecalho />
-      <PaginaBody />
-    </>
+    <div className="container-app">
+      <Cabecalho/>
+      <PaginaBody/>
+      <Senha/>
+    </div> 
   );
 }
 

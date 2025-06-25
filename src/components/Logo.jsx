@@ -1,10 +1,15 @@
-import React from 'react'
-import './Logo.css'
 
+import "./Logo.css";
 function Logo() {
   return (
-    <div className='container-logo'>Logo</div>
-  )
+    <div>
+      <img
+        src="farmarcia-logo-pq.webp"
+        alt="Logo da Farmarcia"
+        className="img-logo"
+      />
+    </div>
+  );
 }
 
 export default Logo
